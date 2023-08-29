@@ -1,0 +1,550 @@
+body {
+  font-family: "Inter";
+}
+
+.mainHeader {
+  border: 1px solid black;
+  height: 877px;
+  background-image: url("../images/Untitled-1\ 2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 118px;
+  height: 54px;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.projectContainer {
+  display: block;
+  justify-content: center;
+  width: 706px;
+  margin: auto;
+  margin-top: 325px;
+  text-align: center;
+}
+
+.searchContainer {
+  width: 1202px;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.searchLabel {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 80px;
+}
+
+.apartmentDetailsContainer {
+  width: 1204px;
+  margin: auto;
+  margin-top: 160px;
+  padding: 15px 0 0 15px;
+}
+
+.totalDetailsContainer {
+  width: 1224px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.totalDetailsBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.premiumAmentiesContainer {
+  width: 1187px;
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.premiumAmentiesItems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.amenties {
+  display: flex;
+  justify-content: space-between;
+}
+
+.midSection {
+  background-color: #1a2440;
+  padding-bottom: 200px;
+}
+
+.neighbourhoodBackground {
+  background-color: #1a2440;
+  padding: 100px 250px 100px 250px;
+}
+
+.mapBackground {
+  padding-top: 150px;
+  height: 450px;
+  background-image: linear-gradient(to left, rgba(80, 80, 80, 0.01), #1a2440),
+    linear-gradient(to top, rgba(80, 80, 80, 0.01), #1a2440),
+    url("../images/map.jpg");
+  background-repeat: no-repeat;
+  background-size: 80% 600px;
+  background-position: right;
+}
+
+.gymImage {
+  background-image: url("../images/gymimage.jpg");
+  background-size: 100% 695px;
+  height: 695px;
+}
+
+.navIconContainer {
+  display: flex;
+  gap: 10px;
+  color: #ffffff;
+}
+
+.navIconContainer div img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.navIconContainer div h2,
+.navIconContainer div h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.header button {
+  background-color: #0ea57a;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 50px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.projectContainer button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 50px;
+}
+
+.projectContainer h1 {
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100px;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 5px;
+  margin-top: 80px;
+}
+
+.projectContainer h2 {
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80px;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+}
+
+div.projectContainer p {
+  color: #2ed7a7;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+div.projectContainer img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+div.searchBox > div {
+  display: flex;
+  gap: 15px;
+  padding: 8px;
+}
+
+div.searchBox > div > div.iconContainer,
+div.searchIcon {
+  color: #0ea57a;
+  background-color: #ebfaff;
+  font-size: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px; 
+  margin: 0;
+}
+
+div.searchBox > div > div p:first-child {
+  color: #c0c0c0;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+
+div.searchBox > div > div p:nth-child(2) {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+div.searchContainer div.searchBox div.searchIcon {
+  margin: 10px;
+  background-color: #0ea57a;
+  color: #ffffff;
+  padding: 25px;
+}
+
+div.apartmentDetailsContainer > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.images {
+  position: relative;
+  height: 300px;
+  width: 400px;
+  padding: 10px 0 0 50px;
+}
+
+div.apartmentDetailsContainer > div > div img {
+  height: 250px;
+  width: 170px;
+  position: absolute;
+  top: 200;
+  left: 200;
+}
+
+div.apartmentDetailsContainer > div > div img:last-child {
+  border: 1px solid #ffffff;
+  rotate: -20deg;
+}
+
+div.apartmentDetailsContainer > div > div img:first-child {
+  z-index: 2;
+  rotate: 15deg;
+  left: 150px;
+  top: 200;
+  bottom: 400;
+}
+
+.apartmentDetailsContainer div div {
+  width: 600px;
+}
+
+div.textContainer > p:first-child {
+  color: #0ea57a;
+}
+
+.textContainer > h1 {
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+}
+
+div.textContainer > p {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.bedroomDetailsList {
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+  color: #ffffff;
+}
+
+.totalDetailsBox > div > h1 {
+  color:#2ed7a7;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.totalDetailsBox > div > span {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+div.servicesText {
+  color: #0ea57a;
+  font-weight: 600;
+  text-align: center;
+}
+
+.premiumAmentiesContainer > div.servicesText + h1 {
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 100px;
+}
+
+.premiumAmentiesItems > div {
+  display: flex;
+}
+
+div.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-size: 25px;
+  background-color: #ebfaff;
+  border-radius: 50%;
+  color: #0ea57a;
+}
+
+.facilities {
+  text-align: left;
+  margin-left: 15px;
+}
+
+.facilities p {
+  font-size: 12px;
+  color: gray;
+  padding: 0;
+  margin: 0;
+}
+
+.facilities h3 {
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.amenties > div > img {
+  width: 200px;
+  height: 150px;
+  margin: 20px 30px 20px 2px;
+}
+
+.amenties div:nth-child(2),
+.amenties div:nth-child(4) {
+  margin-top: 100px;
+}
+
+.amenties > div {
+  border-left: 2px solid rgb(161, 160, 160);
+  height: 500px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.amenties > div > p {
+  font-size: 12px;
+  text-align: justify;
+  width: 200px;
+}
+
+.amenties > div > h2 {
+  font-size: 18px;
+  width: 200px;
+}
+
+.amenties > div > div {
+  font-size: 18px;
+  width: 200px;
+  color: #0ea57a;
+  font-weight: 600;
+}
+
+.neighbourhoodBackground > div > h2,
+.neighbourhoodBackground > div > p {
+  color: #ffffff;
+  width: 400px;
+}
+
+.neighbourhoodBackground > div > p {
+  color: #aeaeae;
+  font-size: 12px;
+}
+
+.neighbourContainer {
+  margin: 50px 0px;
+}
+
+.neighbourContainer h2 {
+  text-align: center;
+}
+
+.neighbourContainer div h2 {
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.listGrid {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  gap: 200px;
+  margin: 0px;
+}
+
+.listGrid > li {
+  padding: 20px;
+  color: #2ed7a7;
+}
+.listGrid > li h3 {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  margin-bottom: 7px;
+}
+
+.listGrid > li > span {
+  color: #828282;
+  font-size: 12px;
+}
+
+.formContainer {
+  width: 400px;
+}
+
+.formContainer > div {
+  text-align: left;
+}
+
+.inputBox {
+  border: 1px solid #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #1a2440;
+  width: 400px;
+  margin: 20px 20px 20px 0;
+}
+
+.inputBox span {
+  color: #2ed7a7;
+  margin: 10px;
+}
+
+.inputBox input {
+  background-color: #1a2440;
+  border: none;
+  width: 350px;
+  color: #ffffff;
+}
+
+.inputBox input:focus,
+.inputBox input:active {
+  outline: none;
+  border: none;
+}
+
+.formContainer h2 {
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.formContainer p,.bookTourContainer > div{
+  text-align: left;
+  font-size: 11px;
+  width: 250px;
+  color: #828282;
+}
+
+div.formContainer button {
+  display: flex;
+  margin: auto;
+  background-color: #0ea57a;
+  border: none;
+  padding: 5px 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footerContainer {
+  text-align: center;
+  background-color: #f3f4f9;
+}
+
+.footerContainer > div.callUs {
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 100px;
+}
+
+.telephoneIcon {
+  display: inline-block;
+  background-color: #1a2440;
+  border-radius: 50%;
+  padding: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 20px ;
+}
+
+.footerContainer > div.contactNumber{
+  font-weight: 200;
+  font-size:50px;
+  margin-bottom: 100px;
+}
+
+div.contactNumber span{
+  font-weight: 600;
+}
+
+.socialMediaIcon span{
+  display: inline-block;
+  padding: 7px;
+  border-radius: 50%;
+  margin: 8px;
+  background-color: #ffffff;
+  color: #828282;
+}
+
+div.socialMediaIcon span:first-child{
+  background-color: #2ed7a7;
+  color: #ffffff;
+}
+
+.footerContainer img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 150px;
+}
+
+.footerContainer p{
+  padding-bottom: 50px;
+}
